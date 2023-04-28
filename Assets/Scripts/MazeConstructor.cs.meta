@@ -3,7 +3,11 @@ guid: 2224738359d360249b3bdcec50cf3538
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mazeMat1: {fileID: 2100000, guid: ee1783965edfa174f8339d26768f43c2, type: 2}
+  - mazeMat2: {fileID: 2100000, guid: 545a9273b54400a4799bbd2fa83df569, type: 2}
+  - startMat: {fileID: 2100000, guid: d8719ff0a4b40af42a8410f5d047d6f3, type: 2}
+  - treasureMat: {fileID: 2100000, guid: ad3f0fbfa96bd414c8f698354958e49d, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -150,6 +150,7 @@ public class AIController : MonoBehaviour
                 }
             }
         }
+        
 
         //out of nodes on the open list
         return null;
@@ -157,11 +158,12 @@ public class AIController : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     public void StartAI()
     {
         startRow = graph.GetUpperBound(0) - 1;
-        startCol = graph.GetUpperBound(1) - 1;            
+        startCol = graph.GetUpperBound(1) - 1;
     }
 
     // Update is called once per frame

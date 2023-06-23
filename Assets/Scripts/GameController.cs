@@ -68,22 +68,6 @@ public class GameController : MonoBehaviour
         Start();
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown("f"))
-        {
-            private void PlaceGoal(TriggerEventHandler treasureCallback)
-            {            
-                GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                treasure.transform.position = new Vector3(goalCol * hallWidth, .5f, goalRow * hallWidth);
-                sphere.name = "Sphere";
-                sphere.tag = "Generated";
-                
-                treasure.GetComponent<MeshRenderer>().sharedMaterial = treasureMat;
 
 
-
-            }
-        }
-    }
 }
